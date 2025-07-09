@@ -17,6 +17,9 @@
     font-weight: bold;
     color: #181818;
 }
+.btn-primary:hover{
+    background-color: aqua;
+}
 
 .section-description{
     font-size: 18px;
@@ -183,6 +186,7 @@ main{
 
 .summery-description{
     display: flex;
+    gap: 15px;
     justify-content: space-around;
       max-width: 1140px;
     margin: 50px auto;
@@ -211,10 +215,35 @@ footer{
 .footer-main{
     display: flex;
      max-width: 1140px;
+     min-width: auto;
     margin: 50px auto;
     justify-content: space-around;
 }
 
 .input-about input{
     padding: 10px;
+    /* margin: 15px; */
+}
+
+.last-btn{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.last-btn :hover{
+    background-color: aqua;
+}
+
+
+
+.input-gap{
+    width: 300px;
+    border: 0px;
+   height: 35px;
+}
+.footer{
+    padding-top: 145px;
+}
+
+.footer img{
+    padding-right: 60px;
 }
